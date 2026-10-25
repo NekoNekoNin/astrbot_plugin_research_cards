@@ -1,0 +1,45 @@
+{
+  "enabled": {
+    "description": "基础 · 启用资料图",
+    "type": "bool",
+    "default": true,
+    "hint": "关闭时停止图像工具和自动表格转换，保留原有文字回答。"
+  },
+  "automatic_presentation": {
+    "description": "呈现 · AI 主动选择资料图",
+    "type": "bool",
+    "default": true,
+    "hint": "查阅到适合列表、参数或比较的数据时主动使用图片，无需用户指定；普通聊天继续使用文字。关闭后仅按用户明确要求制图。"
+  },
+  "theme": {
+    "description": "外观 · 资料图配色",
+    "type": "string",
+    "default": "light",
+    "options": [
+      "light",
+      "dark"
+    ],
+    "labels": [
+      "浅色 · 聊天阅读（推荐）",
+      "深色 · 低光环境"
+    ],
+    "hint": "只影响新生成的资料图，不修改 AstrBot 主题。"
+  },
+  "max_rows": {
+    "description": "容量 · 原始数据行数上限",
+    "type": "int",
+    "default": 40,
+    "hint": "1–60。宽表会按指标分组，文字超出单张图容量时返回错误并保留文字回答。",
+    "slider": {
+      "min": 1,
+      "max": 60,
+      "step": 1
+    }
+  },
+  "keep_source_links": {
+    "description": "来源 · 随图发送完整文字链接",
+    "type": "bool",
+    "default": true,
+    "hint": "图内保留来源名称；开启后同时提供可点击的完整网址。图像生成时间不会代替资料更新时间。"
+  }
+}

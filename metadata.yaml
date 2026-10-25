@@ -1,0 +1,7 @@
+name: astrbot_plugin_research_cards
+display_name: NekoNekoNin · 资料卡与表格图
+desc: 把查阅结果整理为参数卡或分组对比图，保留单位、版本和来源，支持纯文字偏好与失败回退。
+version: 1.1.1
+author: NekoNekoNin
+astrbot_version: '>=4.13.0'
+repo: https://github.com/NekoNekoNin/astrbot_plugin_research_cards
