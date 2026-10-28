@@ -5,3 +5,12 @@ version: 1.1.1
 author: NekoNekoNin
 astrbot_version: '>=4.13.0'
 repo: https://github.com/NekoNekoNin/astrbot_plugin_research_cards
+support_platforms:
+  - aiocqhttp
+  - webchat
+tags:
+  - 资料卡
+  - 表格
+  - 数据可视化
+  - 图片生成
+  - 工具

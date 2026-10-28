@@ -14,6 +14,12 @@
 - 本地确定性排版生成 PNG，保留数值、单位、缺失值、版本和来源链接。
 - 对漏掉工具调用的完整 Markdown 资料表进行兜底转换，失败保留文字。
 
+## 支持平台与标签
+
+支持 QQ / OneBot v11（`aiocqhttp`，如 NapCat）与 AstrBot 内置 WebChat（`webchat`）。市场平台字段表示消息适配器；当前声明按已接入和验收范围填写，其他平台尚未验收。
+
+标签：资料卡、表格、数据可视化、图片生成、工具。
+
 ## 安装
 
 在 AstrBot 的插件管理上传本插件发布 ZIP，或使用[本仓库地址](https://github.com/NekoNekoNin/astrbot_plugin_research_cards)安装。内部插件名保持 `astrbot_plugin_research_cards`，升级时沿用已有配置。元数据已绑定本仓库，更新时请核对版本与更新记录。
